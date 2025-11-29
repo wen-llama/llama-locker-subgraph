@@ -5,7 +5,7 @@ export default createConfig({
 	chains: {
 		mainnet: {
 			id: 1,
-			rpc: ["https://ethereum.drpc.org", "https://rpc.ankr.com/eth"],
+			rpc: process.env.PONDER_RPC_URL_1,
 			pollingInterval: 3600_000,
 		},
 	},
