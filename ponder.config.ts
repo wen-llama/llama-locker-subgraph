@@ -6,7 +6,7 @@ export default createConfig({
 		mainnet: {
 			id: 1,
 			rpc: process.env.PONDER_RPC_URL_1,
-			pollingInterval: 3600_000,
+			pollingInterval: 60_000,
 		},
 	},
 	contracts: {
